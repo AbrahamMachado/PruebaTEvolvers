@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HU-001 Agregar productos al carrito de compras" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-02-25T02:52:49" hostname="DSP-16462" time="18.264">
+  <properties/>
+  <testcase name="Agregar productos en Demoblaze" classname="HU-001 Agregar productos al carrito de compras" time="18.264">
+    <failure message="java.lang.AssertionError: &#10;Expected: an element containing '2120'&#10;     but:  was no matching element found by xpath: //h3[@id='totalp']" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: an element containing '2120'
+     but:  was no matching element found by xpath: //h3[@id='totalp']
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:36)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:30)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:301)
+	at stepdefinitions.AgregarProductoStepDefinitions.visualizoLosProductosAgregadosEnElCarrito(AgregarProductoStepDefinitions.java:45)
+	at ✽.visualizo los productos agregados en el carrito(src/test/resources/AgregarProductoDemoblaze.feature:8)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 41148
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1645757571.359][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+feb 24, 2022 9:52:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Agregar productos en Demoblaze
+--------------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then should be an element containing '2120'
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Expected: an element containing '2120' but:  was no matching element found by xpath: //h3[@id='totalp']
+]]></system-err>
+</testsuite>

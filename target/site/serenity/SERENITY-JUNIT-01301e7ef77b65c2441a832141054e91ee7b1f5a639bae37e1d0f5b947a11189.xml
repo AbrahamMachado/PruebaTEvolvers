@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="HU-001 Agregar productos al carrito de compras" skipped="0" tests="1" time="17.17" timestamp="2022-02-24 09:52:49"><testcase name="Agregar productos en Demoblaze"><failure message="&#10;Expected: an element containing '2120'&#10;     but:  was no matching element found by xpath: //h3[@id='totalp']" type="java.lang.AssertionError">
+Expected: an element containing '2120'
+     but:  was no matching element found by xpath: //h3[@id='totalp']</failure><system-err>
+Expected: an element containing '2120'
+     but:  was no matching element found by xpath: //h3[@id='totalp']&#13;
+stepdefinitions.AgregarProductoStepDefinitions.visualizoLosProductosAgregadosEnElCarrito(AgregarProductoStepDefinitions.java:45)&#13;
+✽.visualizo los productos agregados en el carrito(src/test/resources/AgregarProductoDemoblaze.feature:8)&#13;
+</system-err></testcase></testsuite>

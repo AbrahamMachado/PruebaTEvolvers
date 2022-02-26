@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5d2d993510a2b36120b5777d9d1b16eb950e3951f6da485abc6841f8580422db.html">HU-001 Agregar Productos Al Carrito De Compras</a></span>
+                > <span class="truncate-60"><a
+                    href="01301e7ef77b65c2441a832141054e91ee7b1f5a639bae37e1d0f5b947a11189.html">Agregar productos en Demoblaze </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-02-2022 21:52</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">HU-001 Agregar Productos Al Carrito De Compras</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Agregar productos en Demoblaze
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected: an element containing '2120' but:  was no matching element found by xpath: //h3[@id='totalp']</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>stepdefinitions.AgregarProductoStepDefinitions.visualizoLosProductosAgregadosEnElCarrito(AgregarProductoStepDefinitions.java:45)<br />✽.visualizo los productos agregados en el carrito(src/test/resources/AgregarProductoDemoblaze.feature:8)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource7230763145349604383.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6bc0ee567c86c5fa56aa77821197afd1932adf6c6c0eebb9523c215fced44a1d.png" title=" When ingreso a la pagina web &quot;https://www.demoblaze.com/&quot;" width="1920"/>
+                <img src="1db03621674a73ff36f816d3c87bab13ec267dbdc80993991c18adf12e48c8b9.png" title=" Given agrego el producto
+| nombreProducto | categoria |
+| Sony vaio i5 | Laptops |" width="1920"/>
+                <img src="1db03621674a73ff36f816d3c87bab13ec267dbdc80993991c18adf12e48c8b9.png" title="  agregar producto demoblaze" width="1920"/>
+                <img src="1db03621674a73ff36f816d3c87bab13ec267dbdc80993991c18adf12e48c8b9.png" title="  clicks on " width="1920"/>
+                <img src="21390369469b6c5d6b7a9876b83cc4fbac1c377d3c52cd98ad9ae16be74fbd15.png" title="  clicks on  (completed)" width="1920"/>
+                <img src="e0cd2db1f0127cd760bcb3e35f4f2dc4935b10c38ce69ad2bf9249a2128081d7.png" title="  clicks on " width="1920"/>
+                <img src="03ec4f5f2f424c916e40afbf2e0bccdbe5da206f58f11df34b1b93696a58887c.png" title="  clicks on  (completed)" width="1920"/>
+                <img src="03ec4f5f2f424c916e40afbf2e0bccdbe5da206f58f11df34b1b93696a58887c.png" title="  clicks on " width="1920"/>
+                <img src="bec4967a2d87e770ae84a44331d9f8a270cce7c18bc00be06383dab82c533510.png" title="  clicks on  (completed)" width="1920"/>
+                <img src="bec4967a2d87e770ae84a44331d9f8a270cce7c18bc00be06383dab82c533510.png" title="  espera iteration" width="1920"/>
+                <img src="a12efd01b174b7fbcc9fe290e54828ff28f05fe66988ef7e3285e214e7f74df3.png" title="  espera iteration (completed)" width="1920"/>
+                <img src="a12efd01b174b7fbcc9fe290e54828ff28f05fe66988ef7e3285e214e7f74df3.png" title="  clicks on " width="1920"/>
+                <img src="6bc0ee567c86c5fa56aa77821197afd1932adf6c6c0eebb9523c215fced44a1d.png" title="  clicks on  (completed)" width="1920"/>
+                <img src="6bc0ee567c86c5fa56aa77821197afd1932adf6c6c0eebb9523c215fced44a1d.png" title="  agregar producto demoblaze (completed)" width="1920"/>
+                <img src="117c05d6ee0f7e2449fe310c3046405e29b97afa941a22e4d727a338441f1e93.png" title="  mostrar carrito demoblaze" width="1920"/>
+                <img src="117c05d6ee0f7e2449fe310c3046405e29b97afa941a22e4d727a338441f1e93.png" title="  clicks on " width="1920"/>
+                <img src="117c05d6ee0f7e2449fe310c3046405e29b97afa941a22e4d727a338441f1e93.png" title="  mostrar carrito demoblaze (completed)" width="1920"/>
+                <img src="117c05d6ee0f7e2449fe310c3046405e29b97afa941a22e4d727a338441f1e93.png" title=" Given agrego el producto
+| nombreProducto | categoria |
+| Sony vaio i5 | Laptops | (completed)" width="1920"/>
+                <img src="117c05d6ee0f7e2449fe310c3046405e29b97afa941a22e4d727a338441f1e93.png" title=" Then visualizo los productos agregados en el carrito" width="1920"/>
+                <img src="117c05d6ee0f7e2449fe310c3046405e29b97afa941a22e4d727a338441f1e93.png" title=" Then  should be an element containing '2120': <span class='failing-color'>FAILURE</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
